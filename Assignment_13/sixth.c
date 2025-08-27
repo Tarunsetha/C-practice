@@ -11,8 +11,8 @@ int main(){
 
 }
 int factorial(int a){
-  
-    for(int i=1,k=1;i<=a;i++){
+     int k,i;
+    for( i=1,k=1;i<=a;i++){
      k=k*i;
     }
     return k;
