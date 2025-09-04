@@ -9,12 +9,10 @@ int main(){
      return 0;
 }
 int sum_square_natural(int n){
-    int sum=0;
-    if(n==0){ 
-    return 0;
-    }  
-     return sum_square_natural(n - 1) + (n*n);
-  
+    if(n==0)
+        return 0;
+   
+    return  n%10+sum_square_natural(n/ 10);     
 }
 
 

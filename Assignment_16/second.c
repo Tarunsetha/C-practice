@@ -9,7 +9,6 @@ int main(){
      return 0;
 }
 int sum_even_natural(int n){
-    int sum=0;
     if(n==0){ 
     return 0;
     }  
