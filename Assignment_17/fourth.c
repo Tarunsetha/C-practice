@@ -12,6 +12,6 @@ int main(){
             biggest = arr[i];
         }
     }
-   printf("the smallest elements in an array = %d\n",biggest);
+   printf("the greatest elements in an array = %d\n",biggest);
   
 }
