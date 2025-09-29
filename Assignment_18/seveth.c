@@ -11,7 +11,7 @@ int main(){
         scanf("%d",&arr[i]);   
     }
     result =total_number_of_duplicate_elements( arr,n);
-  printf("Total number of elements that occur exactly %d times",result);
+  printf("Total number of elements that occur exactly 2 times = %d",result);
 
 }
 int  total_number_of_duplicate_elements(int b[],int size){
@@ -21,6 +21,7 @@ int  total_number_of_duplicate_elements(int b[],int size){
             if(b[i]==b[j]){
              k++;
             }
+          
         }
     }
   return k;
@@ -33,8 +34,3 @@ int  total_number_of_duplicate_elements(int b[],int size){
 
 
 
-// 3. Write a function to print all unique elements in an array.
-
-// 4. Write a function to merge two arrays of the same size sorted in descending order.
-
-// 5. Write a function to count the frequency of each element of an array
