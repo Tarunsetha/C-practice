@@ -18,6 +18,7 @@ int main(){
     return 0;
 
 }
+
 int countFrequency(int b[],int size){
     int i,j,count;
     for(i=0;i<size;i++){
